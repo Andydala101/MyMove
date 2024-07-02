@@ -1,0 +1,199 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ 
+		{
+            "path" : "pages/Home/Home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Move/Move",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电影",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Shadow/Shadow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "影圈",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/User/User",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "components/MoveList/MoveList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zixunDeatils/zixunDeatils",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/MoveDeatils/MoveDeatils",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "components/MoveComponent/MoveComponent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/dynamicView/dynamicView",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ReleaseDynamic/ReleaseDynamic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/ThePosition/ThePosition",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "所在位置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Login/Login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/registered/registered",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/UserCenter/UserCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/AddMoviesData/AddMoviesData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加数据",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/AddMoviesData/MsgAdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资讯添加",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#fff"
+		}
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+		"selectedColor": "#fc4a5b",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/Home/Home",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home-selected.png",
+				"text": "首页"
+				
+			},{
+				"pagePath": "pages/Move/Move",
+				"iconPath": "static/tabBar/move.png",
+				"selectedIconPath": "static/tabBar/move-selected.png",
+				"text": "电影"
+			},{
+				"pagePath": "pages/Shadow/Shadow",
+				"iconPath": "./static/tabBar/Shadow.png",
+				"selectedIconPath": "./static/tabBar/Shadow-selected.png",
+				"text": "影圈"
+			},{
+				"pagePath": "pages/User/User",
+				"iconPath": "static/tabBar/user.png",
+				"selectedIconPath": "static/tabBar/user-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
